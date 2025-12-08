@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Model files (too large for git)
+Qwen1.5-7B/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Generated data directories (can be regenerated)
+Prolog/
+ProbLog/
+Summary/
+
+# Large result files (can be regenerated)
+results_strict_direct_eval.jsonl
+comparison_results.json
+all_methods_comparison.json
+protected_variables_analysis.json
+metric_variation_analysis.json
+
+# Temporary/analysis files
+check_articles.py
+filtering_statement.md
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep plots (small, useful for documentation)
+# plots/
+
