@@ -1,5 +1,3 @@
-# COMSCI 264 Submission
-
 This project compares three methods for evaluating ECHR (European Court of Human Rights) article violations:
 1. **Direct Eval**: LLM-based direct evaluation using Qwen1.5-7B
 2. **Prolog**: Rule-based evaluation using standard Prolog
